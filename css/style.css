@@ -81,6 +81,15 @@
     border: 2px dashed black;
 }
 
+.debug .footer-bottom>.container {
+    background-color: #7FFFD4;
+}
+
+.debug .container button {
+    background-color: #FFB6C1;
+    border: 2px dashed black;
+}
+
 /*--------------------
         HEADER
 /*--------------------*/
@@ -156,7 +165,7 @@
 /*--------------------
         FOOTER
 /*--------------------*/
-.footer-bottom{
+.footer-bottom {
     margin-top: 2px;
     padding-top: 30px;
 }
@@ -179,11 +188,16 @@
 .container .col {
     width: 15%;
 }
+
 .footer-bottom>.container {
     display: flex;
     justify-content: space-between;
     min-height: 50px;
     background-color: #7FFFD4;
-    padding: 30px 50px 0 50px;
-    
+}
+
+.container button {
+    margin: 15px 0;
+    padding: 5px;
+    font-size: 18px;
 }
