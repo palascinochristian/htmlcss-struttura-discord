@@ -58,6 +58,10 @@
     background-color: #D3D3D3;
 }
 
+.debug .container .col-main {
+    background-color: #228B22;
+}
+
 /*--------------------
         HEADER
 /*--------------------*/
@@ -122,4 +126,10 @@
 
 .container .col-sm {
     width: 40%;
+}
+
+.container .col-main {
+    padding: 10px;
+    min-height: 800px;
+    width: 100%;
 }
