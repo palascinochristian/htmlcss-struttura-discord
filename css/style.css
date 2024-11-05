@@ -13,7 +13,6 @@
 .container {
     max-width: 1200px;
     margin: 0 auto;
-
 }
 
 /*--------------------
@@ -27,11 +26,17 @@
     background-color: #00008B;
 }
 
-.debug .header-top>.container {
+.debug .header-top> .container {
     background-color: #DAA520;
 }
+.debug .header-bottom> .container {
+    background-color: #EE82EE;
+}
 
-.debug .header-top .container>* {
+.debug .header-top .container> * {
+    border: 2px dashed black;
+}
+.debug .header-bottom > * {
     border: 2px dashed black;
 }
 
@@ -43,10 +48,10 @@
 }
 
 .header-bottom {
-    padding: 30px 0;
+    padding: 40px 0;
 }
 
-.header-top>.container {
+.header-top> .container {
     display: flex;
 }
 
@@ -70,6 +75,11 @@
 
 .header-top .container>* {
     padding: 6px;
+}
+
+.header-bottom .container{
+    width: 45%;
+    min-height: 400px;
 }
 
 /*--------------------
