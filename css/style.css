@@ -58,8 +58,27 @@
     background-color: #D3D3D3;
 }
 
-.debug .container .col-main {
+.debug .container .col-bigger {
     background-color: #228B22;
+}
+
+.debug .footer-top,
+.debug .footer-bottom {
+    background-color: #23272A;
+}
+
+.debug .container .col {
+    border: 2px dashed white;
+    background-color: #20B2AA;
+}
+
+.debug .container .col-med {
+    border-right: 2px dashed black;
+    background-color: #F08080;
+}
+
+.debug .container .col-group {
+    border: 2px dashed black;
 }
 
 /*--------------------
@@ -128,8 +147,31 @@
     width: 40%;
 }
 
-.container .col-main {
+.container .col-bigger {
     padding: 10px;
     min-height: 800px;
     width: 100%;
+}
+
+/*--------------------
+        FOOTER
+/*--------------------*/
+
+.footer-top>.container {
+    display: flex;
+    padding: 4px 50px;
+    min-height: 600px;
+}
+
+.container .col-group {
+    width: 100%;
+    display: flex;
+}
+
+.container .col-med {
+    width: 40%;
+}
+
+.container .col {
+    width: 15%;
 }
