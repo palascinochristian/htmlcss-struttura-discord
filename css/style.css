@@ -130,7 +130,7 @@
 .alternate-grey>.container,
 .alternate-white>.container {
     display: flex;
-    padding: 50px;
+    padding: 50px 0;
 }
 
 .container .col-big,
@@ -156,10 +156,14 @@
 /*--------------------
         FOOTER
 /*--------------------*/
+.footer-bottom{
+    margin-top: 2px;
+    padding-top: 30px;
+}
 
 .footer-top>.container {
     display: flex;
-    padding: 4px 50px;
+    padding: 6px 0 20px 0;
     min-height: 600px;
 }
 
@@ -174,4 +178,12 @@
 
 .container .col {
     width: 15%;
+}
+.footer-bottom>.container {
+    display: flex;
+    justify-content: space-between;
+    min-height: 50px;
+    background-color: #7FFFD4;
+    padding: 30px 50px 0 50px;
+    
 }
