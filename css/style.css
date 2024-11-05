@@ -193,7 +193,6 @@
     display: flex;
     justify-content: space-between;
     min-height: 50px;
-    background-color: #7FFFD4;
 }
 
 .container button {
